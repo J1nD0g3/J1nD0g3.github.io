@@ -33,7 +33,7 @@ color: var(--text);
 line-height: 1.65;
 transition: background 0.25s, color 0.25s;
 }
-.container { max-width: 780px; margin: 0 auto; padding: 0 24px; }
+.container { max-width: 920px; margin: 0 auto; padding: 0 24px; }
 header {
 padding: 48px 0 32px;
 border-bottom: 1px solid var(--border);
@@ -51,27 +51,6 @@ gap: 20px;
 flex-wrap: wrap;
 }
 h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.02em; }
-.profile-photo {
-width: 210px;
-height: 280px;
-object-fit: cover;
-border-radius: 8px;
-border: 1px solid var(--border);
-flex-shrink: 0;
-}
-.profile-photo-placeholder {
-width: 210px;
-height: 280px;
-border-radius: 8px;
-border: 1.5px dashed var(--text-muted);
-display: inline-flex;
-align-items: center;
-justify-content: center;
-font-size: 0.65rem;
-color: var(--text-muted);
-letter-spacing: 0.05em;
-flex-shrink: 0;
-}
 .tagline { color: var(--text-muted); margin-top: 8px; font-size: 1.02rem; }
 .links { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.92rem; }
 .links a { color: var(--accent); text-decoration: none; }
@@ -143,7 +122,6 @@ font-size: 0.85rem;
 <header>
 <div class="header-top">
 <div class="name-block">
-<span class="profile-photo-placeholder" title="Your photo goes here">PHOTO</span>
 <h1>Jin Heo</h1>
 </div>
 <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
@@ -164,7 +142,7 @@ font-size: 0.85rem;
 <span class="item-title">KAIST</span>
 <span class="item-date">Sep 2026 – (Incoming)</span>
 </div>
-<p class="item-sub">M.S. in AI Computing · Advisor: Prof. ADVISOR_NAME</p>
+<p class="item-sub">M.S. in AI Computing · Advisor: Prof. Youngjin Kwon</p>
 </div>
 <div class="item">
 <div class="item-head">
@@ -185,14 +163,14 @@ font-size: 0.85rem;
 <span class="item-title">Undergraduate Research Intern — <a href="https://casyslab.kaist.ac.kr/">CASys Lab</a>, School of Computing, KAIST</span>
 <span class="item-date">Jun 2025 – Present</span>
 </div>
-<p class="item-desc">Research on machine learning systems at the Computer Architecture and Systems Laboratory (CASys).</p>
+<p class="item-desc">Research on machine learning systems.</p>
 </div>
 <div class="item">
 <div class="item-head">
 <span class="item-title">Undergraduate Researcher — <a href="https://css.korea.ac.kr">Computer Systems Security Lab</a>, Korea University</span>
 <span class="item-date">Mar 2024 – Jun 2025</span>
 </div>
-<p class="item-desc">Undergraduate research on computer systems security at the School of Cybersecurity.</p>
+<p class="item-desc">Research on computer systems security.</p>
 </div>
 </section>
 <footer>
